@@ -1,0 +1,168 @@
+<!--NO INÍCIO É O BÁSICO DA PÁGINA HTML CÓDIGOS SIMPLES--> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Programa de aprendizado para deficientes </title> 
+</head> 
+<!--COM A DEFINIÇÃO DE IDIOMA, TITULO E OUTROS PEQUENOS DETALHES, INICIA-SE A 
+CRIAÇÃO DO CORPO DA PÁGINA--> 
+<body> 
+<!--AQUI DEFINI-SE QUE CADA BOTÃO SERÁ COM SOM, ISTO É, QUANDO O DEFICIENTE 
+CLICAR IRÁ SAIR O TEXTO DESCRITO NO BOTÃO--> 
+    <h1> 
+        <button id="H1" onclick="funçãoQueSeráExecutada()">1- APRENDA 
+AQUI</button> 
+    </h1> 
+ 
+<table> 
+ 
+<thead> 
+ 
+    <tr> 
+        <!--E POR DEFINIÇÃO, A TABELA DE ENSINO BÁSICO QUE VAI DEMOSTRAR O QUE 
+CADA TAG FAZ--> 
+ <TH> 
+13 
+ 
+ 
+            <button class="TITULOS" onclick="funçãoQueSeráExecutada()">2- 
+H1</button> 
+        </TH> 
+        <TH> 
+            <button class="TITULOS" onclick="funçãoQueSeráExecutada()">3- 
+H2</button> 
+        </TH> 
+        <TH> 
+            <button class="TITULOS" onclick="funçãoQueSeráExecutada()">4- 
+H3</button> 
+        </TH> 
+        <TH> 
+            <button class="TITULOS" onclick="funçãoQueSeráExecutada()">5- 
+P</button> 
+        </TH> 
+        <TH> 
+            <button class="TITULOS" onclick="funçãoQueSeráExecutada()">6- 
+HEAD</button> 
+        </TH> 
+        <TH> 
+            <button class="TITULOS" onclick="funçãoQueSeráExecutada()">7- 
+BODY</button> 
+        </TH> 
+ 
+    </tr> 
+</thead> 
+<tbody> 
+<tr> 
+    <td> 
+        <button class="SUBTITULOS" onclick="funçãoQueSeráExecutada()">2- O 
+TITULO 1 O MAIS IMPORTANTE</button> 
+         
+    </td> 
+    <td> 
+        <button class="SUBTITULOS" onclick="funçãoQueSeráExecutada()">3- O 
+TITULO 2 O MAIS IMPORTANTE</button> 
+         
+    </td> 
+    <td> 
+        <button class="SUBTITULOS" onclick="funçãoQueSeráExecutada()">4- O 
+TITULO 3 O MAIS IMPORTANTE</button> 
+         
+    </td>   
+    <td> 
+        <button class="SUBTITULOS" onclick="funçãoQueSeráExecutada()">5- O 
+PRAGRAFO</button>        
+    </td> 
+14 
+ 
+ 
+    <td> 
+        <button class="SUBTITULOS" onclick="funçãoQueSeráExecutada()">6- O 
+COMEÇO  DO SITE</button> 
+         
+    </td> 
+    <td> 
+        <button class="SUBTITULOS" onclick="funçãoQueSeráExecutada()">7- O 
+CORPO DO SITE</button> 
+         
+</td> 
+</tr> 
+</tbody> 
+</table> 
+ 
+<H1> 
+<button id="H1" onclick="funçãoQueSeráExecutada()">8- EXEMPLO DE HTML 
+BASICO</button> 
+</H1> 
+ 
+<p> 
+    <button id="TEXTO" onclick="funçãoQueSeráExecutada()">8- NO HTML BASICO 
+TODO SITE COMEÇA COM DOC TYPE, ELE É A INDICAÇÃO 
+    DE QUE O SITE VAI INICIAR LOGO APÓS É DEFNIDO A LINGUAGEM,E EM SEGUIDA 
+AINDA DENTRO DO HEAD FICA A DEFINIÇÃO DO TITULO 
+    DO SITE. TTODO O HTML É DESENVOLIVDO POR TAGS E jÁ ABRINDO UMA TAG BODY, 
+TODO O CORPO DO SITE FICA AQUI, TITULOS, TEXTOS, ETC... 
+     
+</button> 
+</p> 
+ 
+<!--AQUI FICA A PARTE DO ESTILO OU SEJA O CSS DA PÁGINA QUE FARÁ TODO OS 
+DETALHES COMO COR, TAMANHO E FORMA DE TODA PÁGINA--> 
+<style> 
+ 
+.TITULOS{ 
+   font-style: normal; 
+Font-size: xx-large; 
+font-weight: 200; 
+text-align: center; 
+color: goldenrod; 
+font-family: fantasy; 
+} 
+ 
+.SUBTITULOS{ 
+    font-style: normal; 
+Font-size: xx-large; 
+font-weight: 200; 
+15 
+ 
+ 
+text-align: center; 
+color:rgba(255, 102, 0, 0.932); 
+font-family: fantasy; 
+} 
+#H1{ 
+ 
+    font-style: normal; 
+Font-size: xx-large; 
+font-weight: 200; 
+text-align: center; 
+color: rgba(148, 138, 6, 0.904); 
+font-family: fantasy; 
+} 
+#TEXTO{ 
+ 
+    font-style: normal; 
+Font-size: xx-large; 
+font-weight: 200; 
+text-align: center; 
+color: rgb(51, 1, 1); 
+font-family: fantasy; 
+} 
+ 
+body{ 
+ 
+    font-style: normal; 
+Font-size: 3em; 
+font-weight: 200; 
+text-align: center; 
+color: blue; 
+font-family: fantasy; 
+  
+} 
+</style> 
+<div id="transcription"></div> 
+ 
+</body> 
+</html> 
+<!--FIM--> 
